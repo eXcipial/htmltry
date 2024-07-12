@@ -3,9 +3,8 @@ main {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 header {
-    width: 33%; 
-    margin-left: 33%; 
-    margin-right: 33%; 
+    width: 200px; 
+    margin-left: calc((100% - 200px) / 2);
     margin-top: 2%;
     display: inline-block; 
     margin-bottom: 0;   
@@ -19,28 +18,24 @@ h2 {
 p {
     font-size: 25px;
 }
-section {
-    width: 100%; 
-    margin-top: 0; 
-    width: 30%; 
-    margin-left: 34%; 
-    margin-right: 34%;
+img {
+    width: 1000px; 
+    margin-top: 0;  
+    margin-left: calc((100% - 1000px) / 2);
     margin-top: -5%;
     float: left;
     margin-bottom: 0%; 
 }
-section :nth-child(3) {
-    width: 9%; 
+div {
+    width: 315px; 
     margin: 0;
-    margin-left: 45%;
-    margin-right: 45%;
+    margin-left: calc((100% - 315px) / 2);
     float: left;   
 }
 aside { 
-    margin-top: 5%; 
-    width: 10%; 
-    margin-left: 44%; 
-    margin-right: 44%; 
+    margin-top: 100px; 
+    width: 315px; 
+    margin-left: calc((100% - 315px) / 2);
     margin-bottom: 5%;
     float: left;
 }
